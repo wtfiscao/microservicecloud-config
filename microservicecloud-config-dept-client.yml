@@ -16,7 +16,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource        # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cloudDB01?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    url: jdbc:mysql://localhost:3306/cloudDB01?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
     username: root
     password: 12345678
     # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
@@ -56,7 +56,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource        # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cloudDB02?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    url: jdbc:mysql://localhost:3306/cloudDB02?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
     username: root
     password: 12345678
     # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
